@@ -5,7 +5,7 @@
 			<li>Contractors Arsenal</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName="Apparel_ContractorArmorHelmet" or defName="Apparel_ContractorBodyArmor"]/costList/Steel</xpath>

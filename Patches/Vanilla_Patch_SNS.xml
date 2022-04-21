@@ -5,7 +5,7 @@
 			<li>Science Never Stops: Ambition of the Cosmic</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName="SNS_Apparel_CosmicAlloyHelmet" or defName="SNS_Apparel_CosmicAlloyPlateArmor"]/costList/SNS_Unobtainium</xpath>

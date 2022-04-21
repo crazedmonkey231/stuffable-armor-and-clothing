@@ -5,7 +5,7 @@
 			<li>[RH2] Rimmu-Nation² - Clothing</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName="RNApparel_511TacTec_Tan" or defName="RNApparel_DDTGhost_ODGreen" or defName="RNApparel_WarriorDCS_ODGreen"
@@ -20,20 +20,6 @@
 					 or defName="RNApparel_RiotSuit_SecPro"]/costList/Steel</xpath>
 				</li>
 				
-				
-				<!--	
-				<li Class="PatchOperationRemove">
-					<xpath>/Defs/ThingDef[defName=""]/costList/Plasteel</xpath>
-				</li>
-
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName=""]</xpath>
-					<value>
-						<costStuffCount>50</costStuffCount>
-					</value>
-				</li>
-				-->
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName="RNApparel_511TacTec_Tan" or defName="RNApparel_DDTGhost_ODGreen" or defName="RNApparel_WarriorDCS_ODGreen"
 					 or defName="RNApparel_ENVOVestSystem_Grey" or defName="RNApparel_FlyyeFCPC_Multicam" or defName="RNApparel_ViperLazerSOPC_Tan"

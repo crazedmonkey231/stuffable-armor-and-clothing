@@ -5,7 +5,7 @@
 			<li>Rimworld: Spartan Foundry (Continued)</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName = "SF_PoweredAssaultArmor" or 

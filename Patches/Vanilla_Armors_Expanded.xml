@@ -5,7 +5,7 @@
 			<li>Vanilla Armour Expanded</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName = "VAE_Footwear_MarineBoots" or 

@@ -5,7 +5,7 @@
 			<li>Flak Armor: SpecOps Edition</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 				<li Class="PatchOperationRemove">
 					<xpath>/Defs/ThingDef[defName="Apparel_FlakArmor"]/costList/Steel</xpath>

@@ -5,7 +5,7 @@
 			<li>Ultratech: Altered Carbon Remastered</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!-- <success>Always</success> -->
+			<success>Always</success>
 			<operations>
 			
 				<li Class="PatchOperationRemove">
