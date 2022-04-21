@@ -5,7 +5,7 @@
 			<li>Rimsenal - Core</li>
 		</mods>
 		<match Class="PatchOperationSequence">
-			<!--<success>Always</success>-->
+			<success>Always</success>
 			<operations>
 			
 				<li Class="VanillaStuffableArmor.PatchOperationChangeApparelBase">
