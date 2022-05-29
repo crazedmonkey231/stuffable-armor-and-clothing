@@ -8,14 +8,17 @@
 		<li>1.3</li>
 	</supportedVersions>
 	<description>
-		This is a simple patch that allows you to choose what metal/wood/stone your power armor or flak apparel is made of.
-		Simple settings to control Wood or Stone materials from being used/spawned and a setting to control the "Material effect multiplier". *Restart Required
+		This is a simple xpath patch library with simple settings that allows you to choose what metal/wood/stone your clothing or armor is made of.
+		
+		All patches are loaded at start up that's and why settings need to be restarted.
 
 		Compatibility:
 		- This mod is compatible with saved games.
 
 		- This mod is not recommended to be removed from saves.
 		- This mod is not compatible with other mods that significantly change the vanilla armor like CE.
+		
+		- Multiplayer is untested but since this runs everything at start up and to remain in sync I recommend making it a manditory mod.
 
 		- Current Patches Available:
 			- Vanilla Armours Expanded (VAE must be loaded before this mod)
@@ -36,13 +39,18 @@
 			- Rimsenal - Core
 			- Rimsenal - Augmented Vanilla Pack
 			- Royal Arsenal
+			- Rim-Effect: Core
+			- Rim-Effect: N7
+			- Rim-Effect: Asari and Reapers
+			
 		Shouldn't cause issues unless changes made to these armors by other mods.
 		
 		Any issue please drop a note on the mod page :)
 		
-		If you are looking for shield belts check it out under my steam page.
+		If you are looking for your clothing to have ART?! check it out under my steam page.
 		
 		Happy Stuffing
+		
 	</description>
 	<loadAfter>
 		<li>VanillaExpanded.VARME</li>
