@@ -11,7 +11,7 @@ namespace VanillaStuffableArmor
         //Base Game
         public bool stonyStuff = false;
         public bool woodyStuff = false;
-        public float additionalStuffMultiplyer = 0f;
+        public float additionalStuffMultiplyer = 0.15f;
 
         //Glass+Lights
         public bool glass = false;
